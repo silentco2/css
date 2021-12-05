@@ -1,0 +1,5 @@
+<style>li{color:red;}</style>
+<p style="color:blue;">blue text</p>
+<ol>
+<li>red color
+<li>also red</ol>
