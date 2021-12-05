@@ -1,0 +1,7 @@
+<p style="color:blue; text-align:center;"> 
+centerd blue text
+</p>
+<ul>
+<li style=color:red; text-align:center;> only in red not centered
+<li style=color:red;text-align:center;>red centered
+</ul>
