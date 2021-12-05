@@ -1,0 +1,4 @@
+<style>#uniqe{color:blue;}</style>
+<div id="uniqe">
+<p>no div can have that same id again</p>
+</div>
