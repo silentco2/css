@@ -1,0 +1,18 @@
+<style>
+h1{font:bold 24pt Helvetica,Courier;}
+p{font:italic small-caps bold 12px/30px Georgia, serif;}
+</style>
+<h1>when the world fails you use genric fonts</h1>
+<p>serif
+sans-serif
+cursive
+fantasy
+monospace</p>
+<h2>the font order</h2>
+<p>
+font-style Specifies the font style for text
+font-variant Specifies whether or not a text should be displayed in a small-caps font
+font-weight Specifies the weight of a font
+font-size	Specifies the font size of text
+font-family	Specifies the font family for text
+</p>
