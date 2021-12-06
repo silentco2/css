@@ -1,5 +1,11 @@
 .container
 {
 display:flex;
-flex-wrap:wrap;
+flex-wrap:wrap; /*when the row is full it makes a new line*/
+flex-direction:row /*it begins the content either from inline direction(row/row-reverse) or block direction(column/column-reverse)*/
+align-items:center /*aligning on inline axes*/
+justify-content:space-evenly /*aligning on block axes*/
 }
+#ex{order:1}/*give an order for elemnts associated with a flex parent*/
+<div class="container">
+<p id="ex">
