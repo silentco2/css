@@ -1,0 +1,5 @@
+h1,h2{color:"red"}/*then all the h1 and h2 is red*/
+div p{color:"green"}/*any p that is direct/indirect child of a div is green*/
+div > p{color:"yellow"}/*any p that is direct child of a div is yellow*/
+div + p{color:"pink"}/*any p that is directly after a div "direct younger sibling" (not a child) is pink*/
+div ~ p{color:"blue"}/*any p that is younger sibling of div (direct/indirect) is blue*/
