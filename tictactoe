@@ -1,6 +1,6 @@
 ul{
-width:300;
-height:300;
+width:300; /*in this project you can make it so the width take 100% of the page*/
+height:300;/*however you cant do the same for the height as it depends on its parents which depend on body which depend on html which height is dynamic so using vh is a better option*/
   display:flex;
 flex-wrap:wrap;}
 li{
