@@ -1,0 +1,6 @@
+<style>p{margin:1em; /*distance between border and other things*/
+border:5px solid green; /* a frame that illustrates the margin and padding*/
+padding:0.5em; /*distance between the content and the border*/
+float:right;}
+</style>
+<p>we live in a society</p>/*content*/
