@@ -1,6 +1,9 @@
-<style>p{margin:1em; /*distance between border and other things*/
+<style>p{width"300px";
+  height="300px";
+  margin:1em; /*distance between border and other things*/
 border:5px solid green; /* a frame that illustrates the margin and padding*/
 padding:0.5em; /*distance between the content and the border*/
-float:right;}
+float:right;
+box-sizing:border-box;/*the box now gives width and height specified total box size is 300*300 (its defult content-box make total box size 300*300+mbp)*/}
 </style>
 <p>we live in a society</p>/*content*/
