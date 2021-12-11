@@ -5,5 +5,8 @@ border:5px solid green; /* a frame that illustrates the margin and padding*/
 padding:0.5em; /*distance between the content and the border*/
 float:right;
 box-sizing:border-box;/*the box now gives width and height specified total box size is 300*300 (its defult content-box make total box size 300*300+mbp)*/}
+p{visablity:hidden}/*the p is hidden but keeps its place reserved*/
+div{display:none}/*the div is hidden and it has no reserved place*/
 </style>
 <p>we live in a society</p>/*content*/
+<div>we dont live in a society</div>
