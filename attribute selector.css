@@ -1,0 +1,11 @@
+[width]{color:"red"}/*any element that has width attribute is red*/
+[width="105"]{color:"yellow"}/*any element that has width 105px will be yellow*/
+[width ^= "1"]{color:"green"}/*any element that has width value starts with 1 will be green*/
+[width $= "5"]{color:"blue"}/*any element that has width value ends with 5 will be blue*/
+[width *= "0"]{color:"purple"}/*any element that has width value has digit 0 will be purple*/
+/*abc="ghy rty ccc"*/
+[abc ~= "ccc"]{color:"pink"}/*any element that has attribute abc value has string ccc will be pink*/
+/*abc="ccc-hgjfh*/
+[abc |= "ccc"]{color:"orange"}/*any element that has attribute abc value is only ccc or ccc-example will be orange*/
+div[height]{color:"red"}/*any div element that has the attribute height will be red*/
+div [height]{color:"blue"}/*any child of div element that has the attribute height will be blue*/
