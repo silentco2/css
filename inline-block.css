@@ -1,0 +1,3 @@
+div{display:block}/*this is the defult display for all block elements*/
+span{display:inline}/*this is the defult display for all inline elements*/
+div{display:inline-block}/*this is a special poperty if you want to display blocks as inlines (horizantally) same can be achived by grid*/
