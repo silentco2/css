@@ -1,6 +1,6 @@
 <style>p{width"300px";
   height="300px";
-  margin:1em; /*distance between border and other things*/
+  margin:1em; /*distance between border and other things*/ /*auto margin ensures that the box is centered (horizontally) on any display size*/
 border:5px solid green; /* a frame that illustrates the margin and padding*/
 padding:0.5em; /*distance between the content and the border*/
 float:right;
