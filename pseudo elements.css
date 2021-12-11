@@ -1,0 +1,5 @@
+div::after{content:"example";color:"red";} /*after every div example will be printed in red*/
+div::before{content:"example";color:"red";} /*before every div example will be printed in red*/
+div::first-letter{color:"red";} /*the first letter in every div will be printed in red*/
+div::first-line{color:"red";} /*the first line in every div will be printed in red*/
+div::selection{color:"red";} /*when the div text is selected it will be in red*/
