@@ -1,10 +1,12 @@
 <style>p{width"300px";
   height="300px";
   margin:1em; /*distance between border and other things*/ /*auto margin ensures that the box is centered (horizontally) on any display size*/
-border:5px solid green; /* a frame that illustrates the margin and padding*/
+border:5px solid green; /* a frame that illustrates the margin and padding*/ /*border-radius is the optimal way to make your borders circular/eleptic/oval */
 padding:0.5em; /*distance between the content and the border*/
 float:right;
-box-sizing:border-box;/*the box now gives width and height specified total box size is 300*300 (its defult content-box make total box size 300*300+mbp)*/}
+box-sizing:border-box;}/*the box now gives width and height specified total box size is 300*300 (its defult content-box make total box size 300*300+mbp)*/
+/*border-image:"url"/slice/width/outset/(repeat,round,spacing)*//*border-image:linear-gradient(colortop,colorbottom)width*/
+/*border-shadow: (inset can be added to ivert the shape and to make look inside) offsetx offsety blur spread color*/
 p{visablity:hidden}/*the p is hidden but keeps its place reserved*/
 div{display:none}/*the div is hidden and it has no reserved place*/
 </style>
