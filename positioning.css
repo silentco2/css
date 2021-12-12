@@ -8,3 +8,5 @@
 .box{position:inherit}/*takes the positioning of the parent*/
 .box{position:absolute; z-index:0;}/*z-index make you control whose on top if all z indexes are equal then the top priorety is given to the latest created (0 is defult so negative makes it under all the defults)*/
 .parentbox{position:absolute; z-index:0;}/*if a parent box has an z-index then if its value is higher than its sibilings it appears on top with all its contents if its lower it appears on bottom with all its contents(z-index of child doesnt matter)*/
+.box{float:left}/*it removes the defult width property of blocks take only width needed or specified makes the block float its row can contain other blocks*/
+.box{clear:left}/*it makes an element that have taken the row of a left float go down to its own row*/
