@@ -1,0 +1,10 @@
+.box{position:static}/*the defult value of any element where it has a reserved position relative to the page*/
+.box{position:fixed}/*the box has no reserved position(relative to the veiwport"responsive") and its floating on top of other elements on the page and chaging its position wont affect any other element*/
+.box{position:absolute}/*the same properties of fixed but its position is relative to the page*/
+.box{position:relative}/*its position is reserved (relative to its orignal position)*/
+.box{position:sticky}/*not supported by all browsers has to have a TBLR attribute its position is reserved and its relative to the viewport*/
+.parentbox{position:absolute}/*any kind of positioning except static will make the child relative to the parent while static make child relative to the body*/
+.childbox{position:absolute}/*absolute is optimal option to make child relative to parent as fixed is relative to viewport and relative can go outside the parent while sticky makes the child sticky till the end of the parent*/
+.box{position:inherit}/*takes the positioning of the parent*/
+.box{position:absolute; z-index:0;}/*z-index make you control whose on top if all z indexes are equal then the top priorety is given to the latest created (0 is defult so negative makes it under all the defults)*/
+.parentbox{position:absolute; z-index:0;}/*if a parent box has an z-index then if its value is higher than its sibilings it appears on top with all its contents if its lower it appears on bottom with all its contents(z-index of child doesnt matter)*/
