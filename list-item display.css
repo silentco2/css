@@ -1,0 +1,10 @@
+.container{display:list-item}/*give the container properties of list item*/
+.element{display:list-item; list-style-position:inside;/*defult outside*/}/*display it as a list item inside container and put bullet in container*/
+
+.container{display:table}/*given to a parent class it doesnt affect it but its child*/
+.box{display:table-caption}/*get this child out of the border becomes table caption*/
+.box{display:table-header-group}/*this child that has multiple blocks becomes header*/
+.box{display:table-row-group}/*this child that has multiple blocks becomes a row*/
+.box{display:table-footer-group}/*this child that has multiple blocks becomes footer*/
+.row{display:table-row}/*this child given to a block it makes it a seprate row*/
+.box{display:table-cell}/*this child given to each table cell forms the table*/
