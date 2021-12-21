@@ -1,0 +1,8 @@
+body{background-color:rgb(100%,50%,25%) rgb(134,210,45) #ff0015;
+background-image:url(https//:www.imageurl.com),url(https//:www.exampleimg.com);/*appears on top of the color and if there multiple images they are queued (first written first appear)*/
+background-repeat:no-repeat repeat,round no-repeat /*defult value is repeat, giving a space between them makes it so x-axis-value y-axis-value*/
+}
+div{
+background-origin:padding-box;/*begins the background from the beginning of the padding*/
+background-clip:content-box;/*cuts the background from the beginning of the content*/
+}
