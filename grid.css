@@ -1,0 +1,27 @@
+.container{display:grid;
+grid-gap:15px; /*leaves a gap between each box in the container*/
+grid-template-rows:[row-start]200px[row-end row-start] 400px[row-end row-start] 50px[row-end];/*makes 3boxes that have height layedout respectivly in one column,3 rows*/ /*naming certain parts cn be done by[] and it can have multiple names seprated by space*/
+grid-template-columns:200px 400px 50px;/*makes 3boxes that have width layedout respectivly in one row,3 columns*/
+height:100vh; /*give the container 100% of the veiwed part*/
+width:100vw; /*give the container 100% of the veiwed part*/
+1fr/*when you specify boxes size and add some new boxes it gives the new boxes the rest of the available space*/
+grid-templat-rows:repeat(number of times,px/fr);/*gives each box the rest of the page size which make them evenly sized*/
+grid-template-areas:"col1_row1 col1_row2 col1_row3""col2_row1 col2_row2 col2_row3";/*area names that can be displayed abd refer to*/
+grid-template:"area1 area2"200px ". area4" 500px/50px 50px /*short hand for [grid-template-areas]grid-template-rows/grid-template-columns*/
+grid-auto-rows:minmax(min,max);/*give all auto genrated rows a certain size*//*gives the page as much rows as the content needs min max give each row as much space as the content require*/
+flex-flow:column;/*has defult value row it makes that if you didnt specify the number of rows as much as elements it creates a new column to include the unspecified element*/
+gap:10px 20px;/*shorthand for row/column gap*/
+grid-templat-columns:fit-content(100px);/*makes the column take the size of its content if content surpasses 100px it breaks into newline*/
+align-content:top; /*y axis align*/
+justify-content:left; /*x axis align*/
+align-items:center; /*y axis align of content in the cell*/
+jusitfy-items:end; /*x axis align of the content in the cell*/
+grid-auto-flow:column;/*using it can change the flow of the page from defult rows to columns instead*//*using a dense property makes the page follow the grid rules regardless ofthe normal order*/
+}
+.box{
+grid-column-start:3;/*make the box start at the 4th vertical line*/
+grid-column-end:6;/*make the box width end on the 8th vertical line */
+grid-row:4/8;/*shorthand for start-end give the box height of 4 horizontal lines*/
+grid-area:4/3/8/6;/*shorthand for row-start/col-start/row-end/col-end*/
+}
+/*positioned items are excluded from the grid*/
