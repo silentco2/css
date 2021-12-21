@@ -1,0 +1,20 @@
+.container
+{
+display:flex;
+flex-wrap:wrap; /*when the row is full it makes a new line*/
+flex-direction:row; /*it begins the content either from inline direction(row/row-reverse) or block direction(column/column-reverse)*/
+flex-flow:row wrap; /*its a short hand for flex-wrap/flex-direction*/
+align-items:center; /*aligning on inline axes*/
+align-content:center;
+justify-content:space-evenly; /*aligning on block axes*/
+}
+#ex{order:1;
+align-self:flex-end;/*give it a position relativ to the position given by hte container(the 2nd axis)*/
+flex-basis:150;/*depends on the main axis(if row its width if column its height)*/
+flex-grow:0;/*when you grow the page the element grow*/
+flex-shrink:1;/*when you shrink the the page it makes the element shrink*/
+flex:0 1 150; /*shorthand for(grow/shrink/basis)*/
+}/*give an order for elemnts associated with a flex parent*/
+<div class="container">
+<p id="ex">
+/*flex is only for one dimension(one row or one column)*/
